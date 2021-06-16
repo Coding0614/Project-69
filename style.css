@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+#Contact_Header {
+    font-weight: bold;
+    color: deepskyblue;
+}
+
+#MarqueeStyle {
+    font-weight: bold;
+    color: darkorange;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.LakesideVideo {
+    float: none;
+}
+
+.travelmaindiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+    width: 100%;
+}
+
+.travelmaindiv img {
+    width: 100%;
+    height: 300px;
+}
+
+.travelmaindiv hr {
+    width: 100%;
+}
+
+.travelmaindiv h5,
+.travelmaindiv p {
+    margin-left: 20px;
+}
+
+.travelmaindiv h4,
+.travelmaindiv h5 {
+    text-align: center;
+}
+
+#AcademicsID1 {
+    padding-bottom: 10px;
+}
+
+.movie-head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie-head i {
+    float: right;
+}
+
+.movie_text span {
+    color: coral;
+}
+.Map {
+    width: 100%;
+}
